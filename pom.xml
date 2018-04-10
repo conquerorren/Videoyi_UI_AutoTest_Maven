@@ -1,0 +1,80 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>ai.qa.autotest.ui</groupId>
+  <artifactId>AI_UI_AutoTest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>AI_UI_AutoTest</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <build>  
+    <pluginManagement>  
+        <plugins>  
+            <plugin>  
+                <groupId>org.apache.maven.plugins</groupId>  
+                <artifactId>maven-surefire-plugin</artifactId>  
+                <version>2.18.1</version>  
+                <configuration>  
+                    <testFailureIgnore>true</testFailureIgnore>  
+                
+                    <suiteXmlFiles>  
+                        <suiteXmlFile>config-testng\testng.xml</suiteXmlFile>  
+                    </suiteXmlFiles> 
+                    
+                    <excludes>  
+                          <exclude>src/test/java/ai/qa/autotest/ui/AI_UI_AutoTest/MavenTestNGDemo.java</exclude>
+                    </excludes>   
+                </configuration>  
+            </plugin>  
+        </plugins>  
+    </pluginManagement>
+  </build>  
+    
+
+  <dependencies>  
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>6.14.2</version>
+    </dependency>
+  
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>2.52.0</version>
+    </dependency>
+        
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-server</artifactId>
+        <version>2.52.0</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>log4j</groupId>
+        <artifactId>log4j</artifactId>
+        <version>1.2.17</version>
+    </dependency>    
+    
+    <!-- https://mvnrepository.com/artifact/com.github.stephenc.monte/monte-screen-recorder -->
+    <dependency>
+        <groupId>com.github.stephenc.monte</groupId>
+        <artifactId>monte-screen-recorder</artifactId>
+        <version>0.7.7.0</version>
+    </dependency>
+        
+    <!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
+    <dependency>
+        <groupId>org.dom4j</groupId>
+        <artifactId>dom4j</artifactId>
+        <version>2.1.0</version>
+    </dependency>
+  </dependencies>
+</project>

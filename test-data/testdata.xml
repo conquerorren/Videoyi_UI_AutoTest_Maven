@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<testdata>  
+    <data-node id="AdminPortalLoginPage">  
+        <data key="UserName" value="renqiang"/>  
+        <data key="PassWord" value="Aa12345678"/>  
+    </data-node>  
+      
+    <data-node id="CreateMemberPage">  
+        <data key="MemberName" value="AutoTest客户"/>  
+        <data key="TeamID" value="影谱内部测试"/>  
+        <data key="CompanyName" value="AutoTest公司"/>  
+        <data key="MemberTrade" value="广告传媒"/>  
+        <data key="MemberArea" value="中国"/>  
+        <data key="MemberAreaCity" value="北京"/>  
+        <data key="MemberAreaSection" value="海淀"/>  
+        <data key="MemberContactName" value="AutoTest名称"/>  
+        <data key="MemberContactMobile" value="13013112121"/>  
+        <data key="MemberContactPosition" value="AutoTest职位"/>
+    </data-node>  
+
+    <data-node id="EditMemberPage">  
+        <data key="EditMemberName" value="AutoTest客户修改"/>  
+        <data key="EditTeamID" value="影谱内部测试"/>  
+        <data key="EditCompanyName" value="AutoTest公司修改"/>  
+        <data key="EditMemberTrade" value="纸媒"/>  
+        <data key="EditMemberArea" value="中国"/>  
+        <data key="EditMemberAreaCity" value="天津"/>  
+        <data key="EditMemberAreaSection" value="河东"/>  
+        <data key="EditMemberContactName" value="AutoTest名称修改"/>  
+        <data key="EditMemberContactMobile" value="18612818211"/>  
+        <data key="EditMemberContactPosition" value="AutoTest职位修改"/>
+    </data-node>  
+	
+    <data-node id="SearchMemberPage">  
+        <data key="SearchMemberTeamID" value="影谱内部测试"/>  
+        <data key="SearchMemberKey" value="Auto"/>  
+        <data key="SearchMemberKeyNone" value="any"/>  
+    </data-node>  
+
+    <data-node id="CreateHongbaoProduct">  
+        <data key="HbTeamID" value="影谱内部测试"/>  
+        <data key="HbMemberID" value="AutoTest客户修改"/>  
+        <data key="HbPlatform" value="暴风"/>  
+        <data key="HbProductName" value="AutoTest_红包名称"/>  
+        <data key="HbCategory" value="家用电器"/>  
+        <data key="HbProductText" value="Auto按钮文案"/>  
+        <data key="HbActivityDescription" value="Auto活动说明"/>  
+        <data key="HbRedPacket" value="Auto红包口令"/>  
+        <data key="HbConvertDescription" value="请复制口令并保存"/>  
+        <data key="HbClientLogoImg" value="hongbao_custom.png"/>  
+        <data key="HbTemplateImg" value="hongbao_footer.png"/>  
+        <data key="HbCustomizeIconImg" value=""/>  
+    </data-node>  
+	
+    <data-node id="EditHongbaoProduct">  
+        <data key="HbEditTeamID" value="影谱内部测试"/>  
+        <data key="HbEditMemberID" value="AutoTest客户修改"/>  
+        <data key="HbEditPlatform" value="暴风"/>  
+        <data key="HbEditProductName" value="AutoTest_红包修改"/>  
+        <data key="HbEditCategory" value="家用电器"/>  
+        <data key="HbEditProductText" value="Auto文案修改"/>  
+        <data key="HbEditActivityDescription" value="Auto活动说明修改"/>  
+        <data key="HbEditRedPacket" value="Auto红包口令修改"/>  
+        <data key="HbEditConvertDescription" value="请复制口令并保修改存"/>  
+        <data key="HbEditClientLogoImg" value="hongbao_footer.png"/>  
+        <data key="HbEditTemplateImg" value="hongbao_custom.png"/>  
+        <data key="HbEditCustomizeIconImg" value="hongbao_logo.png"/>  
+    </data-node>  
+
+    <data-node id="CreateYouhuimaProduct">  
+        <data key="YhmTeamID" value="影谱内部测试"/>  
+        <data key="YhmMemberID" value="AutoTest客户修改"/>  
+        <data key="YhmPlatform" value="暴风"/>  
+        <data key="YhmProductName" value="AutoTest_优惠码名称"/>  
+        <data key="YhmCategory" value="家用电器"/>  
+        <data key="YhmProductText" value="Auto按钮文案"/>  
+        <data key="YhmActivityDescription" value="Auto活动说明"/>  
+        <data key="YhmConvertCode" value="Al1eX49HQjhelmd\r\nFr4A5jdDmeoWPd50"/>  
+        <data key="YhmConvertDescription" value="请复制优惠码并保存"/>  
+        <data key="YhmEndDescription" value="优惠码被领光啦!!"/>  
+        <data key="YhmClientLogoImg" value="youhuima_logo.png"/>  
+        <data key="YhmTemplateImg" value="youhuima_img.png"/>  
+        <data key="YhmCustomizeIconImg" value=""/>  
+    </data-node>  
+
+	<data-node id="EditYouhuimaProduct">  
+        <data key="YhmEditTeamID" value="影谱内部测试"/>  
+        <data key="YhmEditMemberID" value="AutoTest客户修改"/>  
+        <data key="YhmEditPlatform" value="暴风"/>  
+        <data key="YhmEditProductName" value="AutoTest_优惠码修改"/>  
+        <data key="YhmEditCategory" value="家用电器"/>  
+        <data key="YhmEditProductText" value="Auto按钮文案修改"/>  
+        <data key="YhmEditActivityDescription" value="Auto活动说明修改"/>  
+        <data key="YhmEditConvertCode" value="Op3rkf9F30rGmtn"/>  
+        <data key="YhmEditConvertDescription" value="请复制优惠码并保存修改"/>  
+        <data key="YhmEditEndDescription" value="优惠码被领光啦修改!!"/>  
+        <data key="YhmEditClientLogoImg" value="youhuima_img.png"/>  
+        <data key="YhmEditTemplateImg" value="youhuima_logo.png"/>  
+        <data key="YhmEditCustomizeIconImg" value="youhuima_costomize.png"/>  
+    </data-node> 
+
+    <data-node id="CreateYizhitieProduct">  
+        <data key="YztTeamID" value="影谱内部测试"/>  
+        <data key="YztMemberID" value="AutoTest客户修改"/>  
+        <data key="YztPlatform" value="暴风"/>  
+        <data key="YztProductName" value="AutoTest_易植贴名称"/>  
+        <data key="YztCategory" value="家用电器"/>  
+        <data key="YztClickLink" value=""/>  
+        <data key="YztYztImg" value="yishantie1.png"/>  
+    </data-node>  
+    
+    <data-node id="CreateMgtvYizhitieProduct">  
+        <data key="YztMgtvTeamID" value="影谱内部测试"/>  
+        <data key="YztMgtvMemberID" value="AutoTest客户修改"/>  
+        <data key="YztMgtvPlatform" value="芒果TV"/>  
+        <data key="YztMgtvProductName" value="AutoTest_芒果易植贴"/>  
+        <data key="YztMgtvCategory" value="快消品"/>  
+        <data key="YztMgtvClickLink" value="www.baidu.com"/>  
+        <data key="YztMgtvYztImg" value="yishantie2.png"/>  
+    </data-node>  
+
+	<data-node id="EditYizhitieProduct">  
+        <data key="YztEditTeamID" value="影谱内部测试"/>  
+        <data key="YztEditMemberID" value="AutoTest客户修改"/>  
+        <data key="YztEditPlatform" value="暴风"/>  
+        <data key="YztEditProductName" value="AutoTest_易植贴修改"/>  
+        <data key="YztEditCategory" value="医疗保健"/>  
+        <data key="YztEditClickLink" value="www.moviebook.com.cn"/>  
+        <data key="YztEditYztEditImg" value="yishantie2.png"/>  
+    </data-node> 
+	
+    <data-node id="CreateDTSCProduct">  
+        <data key="DtscTeamID" value="影谱内部测试"/>  
+        <data key="DtscMemberID" value="AutoTest客户修改"/>  
+        <data key="DtscPlatform" value="暴风"/>  
+        <data key="DtscProductName" value="AutoTest_动态视窗名称"/>  
+        <data key="DtscCategory" value="家用电器"/>  
+        <data key="DtscClickLink" value=""/>  
+        <data key="DtscVideoUpForm" value="yishichuang1.mp4"/>  
+    </data-node>  
+
+    <data-node id="EditDTSCProduct">  
+        <data key="DtscEditTeamID" value="影谱内部测试"/>  
+        <data key="DtscEditMemberID" value="AutoTest客户修改"/>  
+        <data key="DtscEditPlatform" value="暴风"/>  
+        <data key="DtscEditProductName" value="AutoTest_动态视窗修改"/>  
+        <data key="DtscEditCategory" value="医疗保健"/>  
+        <data key="DtscEditClickLink" value="www.moviebook.com.cn"/>  
+        <data key="DtscEditVideoUpForm" value="yishichuang2.flv"/>  
+    </data-node>  
+
+    <data-node id="SearchProductPage">  
+        <data key="SearchProductTeamID" value="影谱内部测试"/>  
+        <data key="SearchProductMemberID" value="AutoTest客户修改"/>  
+        <data key="SearchProductKey" value="Auto"/>  
+    </data-node>  
+
+    <data-node id="CreateWorkOrderPage">  
+        <data key="WorkOrderName" value="AutoTest_计划名称"/>  
+        <data key="WorkOrderTeamID" value="影谱内部测试"/>  
+        <data key="WorkOrderMemberID" value="AutoTest客户修改"/>  
+        <data key="WorkOrderBugdet" value="2345"/>  
+        <data key="WorkOrderTerminal" value="1,2"/>  
+        <data key="WorkOrderShared" value="否"/>  
+        <data key="WorkOrderStartTime" value="2018-03-15"/>  
+        <data key="WorkOrderEndTime" value=""/>		
+        <data key="WorkOrderAdArea" value="全部"/>  
+        <data key="WorkOrderAdWeekDate" value="星期一,星期二"/>  
+        <data key="WorkOrderAdTime" value="08-12,14-18"/>  
+    </data-node> 
+
+	<data-node id="EditWorkOrderPage">  
+        <data key="EditWorkOrderName" value="AutoTest_计划名称"/>  
+        <data key="EditWorkOrderCreateTime" value="2018-03-15"/>  
+    </data-node> 
+
+    <data-node id="CreateDramaList">  
+        <data key="SearchDramaName" value="芒果TV2016招商片"/>  
+    </data-node> 
+
+    <data-node id="CreateYizhitiePoint">  
+        <data key="AdPointType" value="易植贴"/> 
+        <data key="YztPointMode" value="0"/> 
+        <data key="YztPointStartMin" value="08"/> 
+        <data key="YztPointStartSecond" value="00"/> 
+        <data key="YztPointEndMin" value="08"/>    
+        <data key="YztPointEndSecond" value="10"/> 
+        <data key="YztPointDisplayTime" value="10"/> 
+        <data key="YztPointDisplayCount" value="1"/> 
+        <data key="YztPointProductName" value="AutoTest_芒果易植贴"/> 
+        <data key="YztPointEffect" value="0"/>    
+        <data key="YztPointPosition" value="左下"/>   
+    </data-node> 
+    
+    <data-node id="CreateMaterialYizhitiePoint">  
+        <data key="AdMaterialPointType" value="易植贴"/> 
+        <data key="YztMaterialPointMode" value="0"/> 
+        <data key="YztMaterialPointStartMin" value="07"/> 
+        <data key="YztMaterialPointStartSecond" value="00"/> 
+        <data key="YztMaterialPointEndMin" value="07"/>    
+        <data key="YztMaterialPointEndSecond" value="10"/> 
+        <data key="YztMaterialPointDisplayTime" value="10"/> 
+        <data key="YztMaterialPointDisplayCount" value="1"/> 
+        <data key="YztMaterialPointProductName" value="AutoTest_芒果易植贴"/> 
+        <data key="YztMaterialPointEffect" value="1"/>    
+        <data key="YztMaterialPointPosition" value="中下"/>   
+    </data-node> 
+    
+    <data-node id="EditDramaPage">  
+        <data key="EditDramaName" value="AutoTest_剧名称修改"/> 
+    </data-node> 
+    
+    <data-node id="EditMaterialPage">  
+        <data key="EditMaterialName" value="AutoTest_集名称修改"/> 
+    </data-node> 
+        
+    <data-node id="SearchWorkOrderPage">  
+        <data key="SearchWorkOrderTeamID" value="影谱内部测试"/>  
+        <data key="SearchWorkOrderMemberID" value="AutoTest客户修改"/> 
+        <data key="SearchWorkOrderState" value="投放中"/>  
+        <data key="SearchWorkOrderPlatform" value="暴风"/>   
+        <data key="SearchWorkOrderStartTime" value="2017-12-10"/>  
+        <data key="SearchWorkOrderEndTime" value=""/>  
+        <data key="SearchWorkOrderKey" value="Auto"/>  
+    </data-node>  
+    
+    
+    <data-node id="AddMonitorPage">  
+        <data key="AddMonitorTerminal" value="全部终端"/> 
+        <data key="AddMonitorName" value="监控_All"/> 
+        <data key="AddMonitorClickCode" value="www.monitorAllClick.com"/> 
+        <data key="AddMonitorDisplay" value="www.monitorAllDisplay.com"/> 
+    </data-node> 
+    
+    <data-node id="EditMonitorPage">  
+        <data key="EditMonitorTerminal" value="Flash"/> 
+        <data key="EditMonitorName" value="监控_Flash"/> 
+        <data key="EditMonitorClickCode" value="www.monitorFlashClick.com"/> 
+        <data key="EditMonitorDisplay" value="www.monitorFlashDisplay.com"/> 
+    </data-node> 
+</testdata>  

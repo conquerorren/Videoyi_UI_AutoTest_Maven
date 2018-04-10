@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+ <test name="Test">
+  <classes>
+   <!-- <class name="ai.qa.autotest.ui.testcases.LoginAdminPortal"> <methods> 
+    <include name="testLoginAdminPortal" /> </methods> </class> -->
+   <class name="ai.qa.autotest.ui.testcases.MemberManagerTest">
+    <methods>
+     <!--ALL CASE -->
+     <include name="testMemberManager" />
+
+     <!--EVERY CORRECT CASE -->
+     <!-- <include name="testSearchMember" /> -->
+     <!-- <include name="testCreateMember" /> -->
+     <!--<include name="testEditMember" /> -->
+     <!--<include name="testDeleteMemberCancel" /> -->
+     <!-- <include name="testDeleteMemberOK" /> -->
+    </methods>
+   </class>
+
+   <class name="ai.qa.autotest.ui.testcases.ProductManagerTest">
+    <methods>
+     <include name="testCreateHongbaoProduct"></include>
+     <include name="testCreateYouhuimaProduct"></include>
+     <include name="testCreateYizhitieProduct"></include>
+     <include name="testCreateDtscProduct"></include>
+     <include name="testSearchProduct" />
+     
+     <!-- <include name="testDeleteProductOK"></include> -->
+    </methods>
+   </class>
+   
+   <class name="ai.qa.autotest.ui.testcases.WorkOrderManagerTest">
+    <methods>
+     <include name="testCreateWorkorder"></include>
+     <include name="testWorkorderCreateDrama" />
+     <include name="testWorkorderDramaList" />
+     <include name="testWorkorderPointList" />
+     <include name="testWorkorderMonitorList" />
+     <include name="testSearchWorkOrder" />
+     <include name="testWorkOrderManager"></include>
+    </methods>
+   </class>
+  </classes>
+ </test> <!-- Test -->
+</suite> <!-- Suite -->

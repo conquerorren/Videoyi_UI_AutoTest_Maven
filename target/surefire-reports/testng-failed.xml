@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="ai.qa.autotest.ui.testcases.WorkOrderManagerTest">
+        <methods>
+          <include name="terminTestSuite"/>
+          <include name="testWorkorderMonitorList"/>
+          <include name="initTest"/>
+          <include name="initDriver"/>
+          <include name="cleanEnv"/>
+        </methods>
+      </class> <!-- ai.qa.autotest.ui.testcases.WorkOrderManagerTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
